@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins' , sans-serif ;
+}
+
+
+#image {
+    background-image: url("https://cdn.mwallpapers.com/photos/celebrities/comics/picture-of-thor-wallpaper-hd-widescreen-fo-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-ap7kq.jpg");
+    background-color: #cccccc;
+    background-position:top;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+p{
+  text-align:justify;
+  position:fixed;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color:floralwhite;
+}
+/* h1{
+   text-align:center;
+   position:fixed;
+   top:15%;
+   left: 10px;
+   color:floralwhite;
+} */
+section{
+    min-height: 100vh;
+    display:flex;
+    justify-content:inherit;
+    align-items:normal;
+}
